@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.card {
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/564x/83/73/dd/8373dd189701372165089f9345a63f5e.jpg);
+  background-size: cover;
+  margin: 90px auto;
+  padding: 50px 70px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 150px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.countdown-display {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.countdown-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.time-inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button, input {
+  margin: 7px 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+input {
+  width: 70px;
+  text-align: center;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
